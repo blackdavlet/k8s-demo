@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"status": "ok", "message": "running in kubernetes"}
+    return {"status": "ok", "message": "gitops is real"}
 
 @app.get("/health")
 def health():
